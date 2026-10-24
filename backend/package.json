@@ -1,0 +1,19 @@
+{
+  "name": "algiar-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Backend for AL.GIAR Excel functions platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js"
+  },
+  "engines": {
+    "node": ">=20.6"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.0.0",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
